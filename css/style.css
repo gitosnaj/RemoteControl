@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: black;
+  background-color: rgb(204, 204, 171);
   margin: 0 auto;
 }
 
@@ -23,43 +23,21 @@ body {
 }
 
 .main_container {
-  background-color: #262626;
-  margin: .5%;
-  padding: .5%;
-}
-
-.row {
-  display: -webkit-flex;
-  display: flex;
-}
-
-.row>.side {
-  width: 20%;
-}
-
-.row>.side>div {
-  text-align: center;
-}
-
-.row>.main {
-  width: 80%;
-  height: 69rem;
-  overflow: auto;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: center;
-  -webkit-align-items: center;
-  -webkit-flex-wrap: wrap;
+  background-color: rgb(201, 219, 86);
+  margin: 10rem auto;
+  padding: 5rem;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  width: max-content;
+  height: max-content;
+
 }
 
 .main .item {
-  width: 26%;
-  height: 18rem;
+  width: 40rem;
+  height: 60rem;
   display: -webkit-flex;
-  display: flex;
+  display: inline-flex;
   -webkit-justify-content: center;
   -webkit-align-items: center;
   justify-content: center;
